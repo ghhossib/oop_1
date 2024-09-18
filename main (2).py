@@ -53,21 +53,7 @@ print(manager.fullname)
 manager._password = '4321'
 print(manager.password)
         # наследование метода 
-class Root(Manager):
-    def __init__(self,fullname,login,password,email,departament):
-        super().__init__(fullname,login,password,email,departament)
-    #departament
-    @login.setter
-    def login(self,new_login):
-        self._login = new_login
-        return self.login
-    @email.setter
-    def email(self,new_email):
-        self._email
-        @departament.setter
-        def departament(self,new_departament):
-            self._departament = new_departament
-            return self.departament
+
 
 class Main:
     def __init__(self, item_1,item_2):
