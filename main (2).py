@@ -73,6 +73,9 @@ class Main:
     def __init__(self, item_1,item_2):
         self.item_1 = item_1
         self.item_2 = item_2
+    def name(self):
+        print "вывод атрибута"
+        
             
             
         
